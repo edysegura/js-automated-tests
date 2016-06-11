@@ -1,9 +1,16 @@
 'use strict';
 
-var FactorialService = (function (params) {
+var FactorialService = (function () {
 
     function calculate(number) {
-        return 120;
+        var result = 1;
+        if(number === 0 || number === 1) return result;
+        
+        for (var i = 1; i <= number; i++) {
+            result = result * i;
+        }
+
+        return result;
     }
 
     //public api

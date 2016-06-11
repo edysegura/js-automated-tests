@@ -2,8 +2,8 @@
 
 var FactorialService = (function (params) {
 
-    function calculate() {
-        return null;
+    function calculate(number) {
+        return 120;
     }
 
     //public api

@@ -4,9 +4,11 @@
   "description": "An HTML5 app to calculate factorial from a given number",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npm i -g http-server && npm i -g karma-cli",
     "test": "karma start karma.conf.js --single-run --browsers PhantomJS",
     "tdd": "karma start karma.conf.js --browsers FirefoxDeveloper --reporters progress",
-    "test-crossbrowser": "karma start karma.conf.js --single-run --browsers Chrome,Firefox,IE"
+    "test-crossbrowser": "karma start karma.conf.js --single-run --browsers Chrome,Firefox,IE",
+    "start": "http-server app/ -p 8081"
   },
   "author": "Edy Segura",
   "license": "ISC",

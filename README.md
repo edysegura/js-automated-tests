@@ -16,6 +16,10 @@ To run crossbrowser test (Chrome, Firefox and IE) execute ```npm run test-crossb
 
 To check the test code coverage check the folder **coverage** after ran the command ```npm test```
 
+## To run the application
+
+- ```npm start```
+
 ## Feedback
 
 Any kind of feedback will be more than welcome, please open an [issue](https://github.com/edysegura/js-factorial/issues) for that.

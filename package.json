@@ -8,7 +8,7 @@
     "test": "karma start karma.conf.js --single-run --browsers PhantomJS",
     "tdd": "karma start karma.conf.js --browsers FirefoxDeveloper --reporters progress",
     "test-crossbrowser": "karma start karma.conf.js --single-run --browsers Chrome,Firefox,IE",
-    "start": "http-server app/ -p 8081"
+    "start": "http-server app/ -p 8081 -o"
   },
   "author": "Edy Segura",
   "license": "ISC",

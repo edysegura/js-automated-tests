@@ -14,7 +14,7 @@ To run crossbrowser test (Chrome, Firefox and IE) execute ```npm run test-crossb
 
 ## Test coverage
 
-To check the test code coverage check the folder **coverage** after ran the command ```npm test```
+To check the test code coverage check the folder **build/test/coverage** after ran the command ```npm test```
 
 ## To run the application
 

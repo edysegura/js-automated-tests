@@ -10,15 +10,25 @@ To run the automated tests please follow the commands below:
 
 ## Crossbrowser Test
 
-To run crossbrowser test (Chrome, Firefox and IE) execute ```npm run test-crossbrowser```.
+To run crossbrowser test (Chrome, Firefox and IE) execute the command:
+
+- ```npm run test-crossbrowser```
 
 ## Test coverage
 
-To check the test code coverage check the folder **build/test/coverage** after ran the command ```npm test```
+To check the test code coverage check the folder **build/test/coverage** after ran the command below:
+
+- ```npm test```
 
 ## To run the application
 
 - ```npm start```
+
+## TDD
+
+To practice Test Driven Development run the command:
+
+- ```npm tdd```
 
 ## Feedback
 

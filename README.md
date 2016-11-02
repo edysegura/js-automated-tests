@@ -1,4 +1,4 @@
-# Factorial Calculator [![Build Status](https://travis-ci.org/edysegura/js-factorial.svg?branch=master)](https://travis-ci.org/edysegura/js-factorial) [![Coverage Status](https://coveralls.io/repos/github/edysegura/js-factorial/badge.svg)](https://coveralls.io/github/edysegura/js-factorial)
+# Factorial Calculator [![Build Status](https://travis-ci.org/edysegura/js-factorial.svg?branch=master)](https://travis-ci.org/edysegura/js-factorial) [![Coverage Status](https://coveralls.io/repos/github/edysegura/js-factorial/badge.svg)](https://coveralls.io/github/edysegura/js-factorial) [![Codacy grade](https://img.shields.io/codacy/grade/e27821fb6289410b8f58338c7e0bc686.svg)](https://www.codacy.com/app/edysegura/js-factorial/dashboard?bid=3872323)
 An HTML5 app to calculate the factorial from a given number. 
 
 ## Instructions

@@ -28,7 +28,7 @@ To check the test code coverage check the folder **build/test/coverage** after r
 
 To practice Test Driven Development run the command:
 
-- ```npm tdd```
+- ```npm run tdd```
 
 ## Feedback
 

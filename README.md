@@ -1,4 +1,4 @@
-# JavaScript Automated Tests [![Build Status](https://travis-ci.org/edysegura/js-factorial.svg?branch=master)](https://travis-ci.org/edysegura/js-factorial) [![Coverage Status](https://coveralls.io/repos/github/edysegura/js-factorial/badge.svg)](https://coveralls.io/github/edysegura/js-factorial) [![Codacy grade](https://img.shields.io/codacy/grade/e27821fb6289410b8f58338c7e0bc686.svg)](https://www.codacy.com/app/edysegura/js-factorial/dashboard?bid=3872323)
+# JavaScript Automated Tests [![Build Status](https://travis-ci.org/edysegura/js-automated-tests.svg?branch=master)](https://travis-ci.org/edysegura/js-automated-tests) [![Coverage Status](https://coveralls.io/repos/github/edysegura/js-automated-tests/badge.svg?branch=master)](https://coveralls.io/github/edysegura/js-automated-tests?branch=master) [![Codacy grade](https://img.shields.io/codacy/grade/e27821fb6289410b8f58338c7e0bc686.svg)](https://www.codacy.com/app/edysegura/js-factorial/dashboard?bid=3872323)
 An example of automated tests in JavaScript using Karma, Jasmine, Travis-CI and NPM scripts.
 
 ## Instructions

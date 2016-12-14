@@ -10,13 +10,10 @@ var FactorialService = (function () {
 
     function calculate(number) {
         if (_isValidNumber(number)) {
-            var result = 1;
-            if (number === 0 || number === 1) return result;
-
-            for (var i = 1; i <= number; i++) {
+            let result = 1;
+            for (let i = 1; i <= number; i++) {
                 result = result * i;
             }
-
             return result;
         }
         return null;
@@ -25,6 +22,6 @@ var FactorialService = (function () {
     //public api
     return {
         "calculate": calculate
-    }
+    };
 
 })();

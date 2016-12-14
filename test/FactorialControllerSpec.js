@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 describe('FactorialController.js', function () {
 
@@ -8,15 +8,13 @@ describe('FactorialController.js', function () {
         spyOn(FactorialController, 'init').and.callThrough();
     });
 
-    it('should be able to initialize', function () {
+    it('should be able to initialize', function() {
         //given
         FactorialController.init();
 
         //then
         expect(FactorialController.init).toHaveBeenCalled();
     });
-
-    
     
     it('should calculate factorial from a given number', function() {
         //given

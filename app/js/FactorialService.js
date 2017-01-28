@@ -10,8 +10,8 @@ var FactorialService = (function () {
 
     function calculate(number) {
         if (_isValidNumber(number)) {
-            let result = 1;
-            for (let i = 1; i <= number; i++) {
+            var result = 1;
+            for (var i = 1; i <= number; i++) {
                 result = result * i;
             }
             return result;

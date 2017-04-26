@@ -2,10 +2,8 @@
   "name": "js-factorial",
   "version": "1.0.0",
   "description": "An HTML5 app to calculate factorial from a given number",
-  "main": "index.js",
   "scripts": {
     "coveralls": "cat ./build/test/coverage/**/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "preinstall": "npm i -g http-server && npm i -g karma-cli",
     "test": "karma start karma.conf.js --single-run --browsers PhantomJS",
     "tdd": "karma start karma.conf.js --browsers FirefoxDeveloper --reporters progress",
     "test-crossbrowser": "karma start karma.conf.js --single-run --browsers Chrome,Firefox,IE",
@@ -23,6 +21,7 @@
   "homepage": "https://github.com/edysegura/js-factorial#readme",
   "devDependencies": {
     "coveralls": "^2.11.9",
+    "http-server": "^0.9.0",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^1.0.1",

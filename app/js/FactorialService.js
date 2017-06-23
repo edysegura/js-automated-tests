@@ -4,7 +4,7 @@ var FactorialService = (function () {
 
     function _isValidNumber(number) {
         return (number !== undefined)
-            && (typeof(number) !== 'string')  
+            && (typeof(number) !== 'string')
             && (number > -1);
     }
 

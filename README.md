@@ -3,20 +3,20 @@ An example of automated tests in JavaScript using Karma, Jasmine, Travis-CI and 
 
 ## Instructions
 
-To run the automated tests please follow the commands below:
+In order to run the automated tests please follow the commands below:
 
 - ```npm install```
 - ```npm test```
 
 ## Crossbrowser Test
 
-To run crossbrowser test (Chrome, Firefox and IE) execute the command:
+In order to run crossbrowser test (Chrome, Firefox and IE) execute the command:
 
 - ```npm run test-crossbrowser```
 
 ## Test coverage
 
-To check the test code coverage check the folder **build/test/coverage** after ran the command below:
+In order to check the test code coverage check the folder **build/test/coverage** after ran the command below:
 
 - ```npm test```
 

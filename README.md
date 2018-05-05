@@ -20,7 +20,7 @@ To check the test code coverage check the folder **build/test/coverage** after r
 
 - ```npm test```
 
-## To run the application
+## How to run the application
 
 - ```npm start```
 

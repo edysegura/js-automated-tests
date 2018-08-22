@@ -33,3 +33,7 @@ To practice Test Driven Development run the command:
 ## Feedback
 
 Any kind of feedback will be more than welcome, please open an [issue](https://github.com/edysegura/js-factorial/issues) for that.
+
+## References
+
+[An Overview of JavaScript Testing in 2018](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3)

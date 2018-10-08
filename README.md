@@ -36,4 +36,7 @@ Any kind of feedback will be more than welcome, please open an [issue](https://g
 
 ## References
 
+- [Why TDD?](https://builttoadapt.io/why-tdd-489fdcdda05e)
+- [8 Benefits of Unit Testing](https://dzone.com/articles/top-8-benefits-of-unit-testing)
 - [An Overview of JavaScript Testing in 2018](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3)
+

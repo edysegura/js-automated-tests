@@ -14,7 +14,7 @@
     "url": "git+https://github.com/edysegura/js-factorial.git"
   },
   "author": "Edy Segura",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/edysegura/js-factorial/issues"
   },

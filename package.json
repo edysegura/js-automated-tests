@@ -4,7 +4,7 @@
   "description": "An HTML5 app to calculate factorial from a given number",
   "scripts": {
     "coveralls": "cat ./build/test/coverage/**/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "test": "karma start karma.conf.js --single-run --browsers FirefoxHeadless",
+    "test": "karma start karma.conf.js --single-run --browsers HeadlessFirefox",
     "tdd": "karma start karma.conf.js --browsers FirefoxDeveloper --reporters progress",
     "test-crossbrowser": "karma start karma.conf.js --single-run --browsers Chrome,Firefox",
     "start": "http-server app/ -p 8081 -o"

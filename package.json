@@ -7,7 +7,7 @@
     "test": "karma start karma.conf.js --single-run --browsers HeadlessFirefox",
     "tdd": "karma start karma.conf.js --browsers FirefoxDeveloper --reporters progress",
     "test-crossbrowser": "karma start karma.conf.js --single-run --browsers Chrome,Firefox",
-    "start": "http-server app/ -p 8081 -o"
+    "start": "browser-sync app/ --watch"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/edysegura/js-factorial#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.0",
     "coveralls": "^3.0.2",
-    "http-server": "^0.11.1",
     "jasmine-core": "^2.99.1",
     "karma": "^3.0.0",
     "karma-chrome-launcher": "^1.0.1",

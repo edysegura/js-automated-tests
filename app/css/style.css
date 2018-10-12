@@ -77,4 +77,5 @@ button:hover {
   padding: 12px 15px;
   margin: 0 auto;
   box-shadow: 3px 3px 4px 0 #ccc;
+  overflow: hidden;
 }

@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Factorial Calculator</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Factorial Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="container">
+  <div class="container">
     <h1>Factorial Calculator</h1>
     <div class="form">
-        <label for="number">
-            Number
-            <input type="number" min="0" max="100" id="number" required autofocus>
-        </label>
+      <label for="number">
+        Number
+        <input type="number" min="0" max="100" id="number" required autofocus>
+      </label>
     </div>
 
     <button id="btnCalculate">Calculate</button>
 
     <div class="result">
-        <h2>Result</h2>
-        <span id="result">0</span>
+      <h2>Result</h2>
+      <span id="result">0</span>
     </div>
-</div>
+  </div>
 
-<script src="js/FactorialService.js"></script>
-<script src="js/FactorialController.js"></script>
-<script>
+  <script src="js/FactorialService.js"></script>
+  <script src="js/FactorialController.js"></script>
+  <script>
     //initialization
     FactorialController.init();
-</script>
+  </script>
+
 </body>
 </html>

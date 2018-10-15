@@ -1,6 +1,8 @@
 class FactorialService {
   static isValidNumber(number) {
-    return number && typeof number !== 'string' && number > -1
+    return number !== ''
+      && typeof number !== 'string'
+      && number > -1
   }
 
   static calculate(number) {

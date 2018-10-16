@@ -14,13 +14,14 @@ var FactorialController = (function () {
     }
 
     function _eventClickHandler(event) {
+        event.preventDefault()
         var result = FactorialService.calculate(_getNumber());
         _showResult(result);
     }
 
     function _setButton() {
-        var button = document.getElementById('btnCalculate');
-        button.addEventListener('click', _eventClickHandler);
+        var form = document.querySelector('form');
+        form.addEventListener('submit', _eventClickHandler);
     }
 
     function init() {

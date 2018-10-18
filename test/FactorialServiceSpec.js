@@ -13,10 +13,10 @@ describe('FactorialService.js', function() {
     expect(FactorialService.calculate(0)).toBe(1)
   })
 
-  it('should return null for given invalid params', function() {
-    expect(FactorialService.calculate()).toBe(null)
-    expect(FactorialService.calculate(-1)).toBe(null)
-    expect(FactorialService.calculate('')).toBe(null)
-    expect(FactorialService.calculate('1')).toBe(null)
+  it('should return undefined for given invalid params', function() {
+    expect(FactorialService.calculate()).toBe(undefined)
+    expect(FactorialService.calculate(-1)).toBe(undefined)
+    expect(FactorialService.calculate('')).toBe(undefined)
+    expect(FactorialService.calculate('1')).toBe(undefined)
   })
 })

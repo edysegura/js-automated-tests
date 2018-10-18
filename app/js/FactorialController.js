@@ -1,34 +1,26 @@
-'use strict'
-
-var FactorialController = (function() {
-  function _showResult(result) {
-    var span = document.getElementById('result')
-    span.innerHTML = result || 0
+class FactorialController {
+  constructor() {
+    this.listenButtonClick()
   }
 
-  function _getNumber() {
-    var inputNumber = document.getElementById('number')
-    var number = parseInt(inputNumber.value)
-    return number
+  showResult(result = 0) {
+    let span = document.getElementById('result')
+    span.textContent = result
   }
 
-  function _eventClickHandler(event) {
+  getNumber() {
+    let inputNumber = document.getElementById('number')
+    return +inputNumber.value
+  }
+
+  clickHandler(event) {
     event.preventDefault()
-    var result = FactorialService.calculate(_getNumber())
-    _showResult(result)
+    let result = FactorialService.calculate(this.getNumber())
+    this.showResult(result)
   }
 
-  function _setButton() {
-    var form = document.querySelector('form')
-    form.addEventListener('submit', _eventClickHandler)
+  listenButtonClick() {
+    let form = document.querySelector('form')
+    form.addEventListener('submit', event => this.clickHandler(event))
   }
-
-  function init() {
-    _setButton()
-  }
-
-  //public api
-  return {
-    init: init
-  }
-})()
+}

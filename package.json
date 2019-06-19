@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/edysegura/js-factorial#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.0",
+    "browser-sync": "^2.26.7",
     "coveralls": "^3.0.2",
     "jasmine-core": "^2.99.1",
-    "karma": "^3.0.0",
+    "karma": "^4.1.0",
     "karma-chrome-launcher": "^1.0.1",
     "karma-coverage": "^1.0.0",
     "karma-firefox-launcher": "^1.1.0",

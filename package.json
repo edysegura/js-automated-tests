@@ -6,12 +6,11 @@
     "test": "karma start karma.conf.js --single-run --browsers HeadlessFirefox",
     "tdd": "karma start karma.conf.js --browsers FirefoxDeveloper --reporters progress",
     "test-crossbrowser": "karma start karma.conf.js --single-run --browsers Chrome,Firefox",
-    "start": "browser-sync app/ --watch"
+    "start": "live-server app/"
   },
   "author": "Edy Segura",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
     "coveralls": "^3.0.2",
     "jasmine-core": "^2.99.1",
     "karma": "^4.1.0",
@@ -21,6 +20,7 @@
     "karma-fixture": "^0.2.6",
     "karma-html-reporter": "^0.2.7",
     "karma-html2js-preprocessor": "^1.0.0",
-    "karma-jasmine": "^1.0.2"
+    "karma-jasmine": "^1.0.2",
+    "live-server": "^1.2.1"
   }
 }

@@ -1,7 +1,6 @@
 {
-  "name": "js-factorial",
+  "name": "js-automated-tests",
   "version": "1.0.0",
-  "description": "An HTML5 app to calculate factorial from a given number",
   "scripts": {
     "coveralls": "cat ./build/test/coverage/**/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "test": "karma start karma.conf.js --single-run --browsers HeadlessFirefox",
@@ -9,16 +8,8 @@
     "test-crossbrowser": "karma start karma.conf.js --single-run --browsers Chrome,Firefox",
     "start": "browser-sync app/ --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/edysegura/js-factorial.git"
-  },
   "author": "Edy Segura",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/edysegura/js-factorial/issues"
-  },
-  "homepage": "https://github.com/edysegura/js-factorial#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "coveralls": "^3.0.2",

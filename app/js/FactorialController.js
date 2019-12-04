@@ -1,4 +1,6 @@
-class FactorialController {
+import { FactorialService } from './FactorialService.js'
+
+export class FactorialController {
   constructor() {
     this.listenButtonClick()
   }

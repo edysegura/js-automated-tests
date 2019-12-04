@@ -1,4 +1,4 @@
-class FactorialService {
+export class FactorialService {
   static isValidNumber(number) {
     return number !== ''
       && typeof number !== 'string'

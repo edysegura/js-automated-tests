@@ -1,26 +1,18 @@
 {
   "name": "js-automated-tests",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
-    "coveralls": "cat ./build/test/coverage/**/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "test": "karma start karma.conf.js --single-run --browsers HeadlessFirefox",
-    "tdd": "karma start karma.conf.js --browsers FirefoxDeveloper --reporters progress",
-    "test-crossbrowser": "karma start karma.conf.js --single-run --browsers Chrome,Firefox",
-    "start": "live-server app/"
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "start": "http-server ./app/ -o",
+    "tdd": "",
+    "test": "jest --coverage"
   },
   "author": "Edy Segura",
   "license": "MIT",
   "devDependencies": {
-    "coveralls": "^3.0.2",
-    "jasmine-core": "^2.99.1",
-    "karma": "^4.1.0",
-    "karma-chrome-launcher": "^1.0.1",
-    "karma-coverage": "^1.0.0",
-    "karma-firefox-launcher": "^1.1.0",
-    "karma-fixture": "^0.2.6",
-    "karma-html-reporter": "^0.2.7",
-    "karma-html2js-preprocessor": "^1.0.0",
-    "karma-jasmine": "^1.0.2",
-    "live-server": "^1.2.1"
+    "@babel/preset-env": "^7.7.4",
+    "coveralls": "^3.0.9",
+    "http-server": "^0.12.0",
+    "jest": "^24.9.0"
   }
 }

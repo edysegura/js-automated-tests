@@ -1,11 +1,11 @@
 # JavaScript Automated Tests [![Build Status](https://travis-ci.org/edysegura/js-automated-tests.svg?branch=master)](https://travis-ci.org/edysegura/js-automated-tests) [![Coverage Status](https://coveralls.io/repos/github/edysegura/js-automated-tests/badge.svg?branch=master)](https://coveralls.io/github/edysegura/js-automated-tests?branch=master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fc98669dc9e24166a1d84c9f0f7cafb2)](https://www.codacy.com/app/edysegura/js-automated-tests?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edysegura/js-automated-tests&amp;utm_campaign=Badge_Grade)
-An example of automated tests in JavaScript using Karma, Jasmine, Travis-CI and NPM scripts.
+An example of automated tests in JavaScript using Jest, Travis-CI and NPM scripts.
 
 ## Instructions
 
 In order to run the automated tests please follow the commands below:
 
-- ```npm install```
+- ```npm ci```
 - ```npm test```
 
 ## Crossbrowser Test
@@ -38,5 +38,6 @@ Any kind of feedback will be more than welcome, please open an [issue](https://g
 
 - [Why TDD?](https://builttoadapt.io/why-tdd-489fdcdda05e)
 - [8 Benefits of Unit Testing](https://dzone.com/articles/top-8-benefits-of-unit-testing)
-- [An Overview of JavaScript Testing in 2018](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3)
+- [An Overview of JavaScript Testing in 2019](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2019-264e19514d0a)
+- [JavaScript Testing Introduction Tutorial - Unit Tests, Integration Tests & e2e Tests](https://www.youtube.com/watch?v=r9HdJ8P6GQI)
 

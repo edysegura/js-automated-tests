@@ -1,4 +1,4 @@
-'use strict'
+import { FactorialService } from '../app/js/FactorialService'
 
 describe('FactorialService.js', function() {
   it('should calculate factorial from a given name', function() {

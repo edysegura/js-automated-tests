@@ -39,4 +39,19 @@ describe('FactorialController.js', () => {
     // THEN
     expect(number).toBe(2)
   })
+
+  it('should calculate factorial from a given number', () => {
+    // GIVEN
+    document.getElementById('number').value = '2'
+
+    // AND
+    const button = document.querySelector('button')
+    const htmlElement = document.getElementById('result')
+
+    // WHEN
+    button.click()
+
+    // THEN
+    expect(htmlElement.textContent).toBe('2')
+  })
 })

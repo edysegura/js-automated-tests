@@ -13,6 +13,6 @@
     "@babel/preset-env": "^7.7.4",
     "coveralls": "^3.0.9",
     "http-server": "^0.12.3",
-    "jest": "^24.9.0"
+    "jest": "^26.4.2"
   }
 }

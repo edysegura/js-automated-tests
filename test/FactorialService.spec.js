@@ -1,7 +1,7 @@
 import { FactorialService } from '../app/js/FactorialService'
 
 describe('FactorialService.js', function() {
-  it('should calculate factorial from a given name', function() {
+  it('should calculate factorial from a given number', function() {
     expect(FactorialService.calculate(1)).toBe(1)
     expect(FactorialService.calculate(2)).toBe(2)
     expect(FactorialService.calculate(3)).toBe(6)

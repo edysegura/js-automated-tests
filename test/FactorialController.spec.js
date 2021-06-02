@@ -42,7 +42,7 @@ describe('FactorialController.js', () => {
 
   it('should calculate factorial from a given number', () => {
     // GIVEN
-    document.getElementById('number').value = '2'
+    document.getElementById('number').value = '5'
 
     // AND
     const button = document.querySelector('button')
@@ -52,6 +52,6 @@ describe('FactorialController.js', () => {
     button.click()
 
     // THEN
-    expect(htmlElement.textContent).toBe('2')
+    expect(htmlElement.textContent).toBe('120')
   })
 })

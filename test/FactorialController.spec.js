@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import { FactorialController } from '../app/js/FactorialController'
 
 describe('FactorialController.js', () => {

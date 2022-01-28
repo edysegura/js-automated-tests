@@ -10,9 +10,9 @@
   "author": "Edy Segura",
   "license": "MIT",
   "devDependencies": {
-    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-env": "^7.16.11",
     "coveralls": "^3.0.9",
     "http-server": "^13.0.2",
-    "jest": "^27.2.5"
+    "jest": "^27.4.7"
   }
 }

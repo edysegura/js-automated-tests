@@ -58,4 +58,6 @@ describe('FactorialController.js', () => {
     // THEN
     expect(htmlElement.textContent).toBe('120')
   })
+
+  it.todo('should have zero as a default value ')
 })

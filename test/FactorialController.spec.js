@@ -8,8 +8,7 @@ describe('FactorialController.js', () => {
   let controller
 
   // Set up document body
-  document.body.innerHTML =
-    `<form action="">
+  document.body.innerHTML = `<form action="">
       <input type="text" id="number">
       <button type="submit">Calculate</button>
       <span id="result">0</span>
@@ -59,5 +58,14 @@ describe('FactorialController.js', () => {
     expect(htmlElement.textContent).toBe('120')
   })
 
-  it.todo('should have zero as a default value ')
+  it('should have zero as a default value showing result', () => {
+    // GIVEN
+    const htmlElement = document.getElementById('result')
+
+    // WHEN
+    controller.showResult()
+
+    // THEN
+    expect(htmlElement.textContent).toBe('0')
+  })
 })

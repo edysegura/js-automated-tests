@@ -8,11 +8,13 @@ describe('FactorialController.js', () => {
   let controller
 
   // Set up document body
-  document.body.innerHTML = `<form action="">
+  document.body.innerHTML = `
+    <form action="">
       <input type="text" id="number">
       <button type="submit">Calculate</button>
       <span id="result">0</span>
-    </form>`
+    </form>
+  `
 
   beforeEach(() => {
     controller = new FactorialController()

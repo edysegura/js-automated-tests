@@ -23,6 +23,6 @@ export class FactorialController {
 
   listenButtonClick() {
     let form = document.querySelector('form')
-    form.addEventListener('submit', event => this.clickHandler(event))
+    form.addEventListener('submit', (event) => this.clickHandler(event))
   }
 }

@@ -1,6 +1,6 @@
 export class FactorialService {
-
   static isValidNumber(number) {
+    // prettier-ignore
     return number !== ''
       && typeof number !== 'string'
       && number > -1

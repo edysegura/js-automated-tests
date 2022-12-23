@@ -8,12 +8,6 @@ In order to run the automated tests please follow the commands below:
 - ```npm ci```
 - ```npm test```
 
-## Crossbrowser Test
-
-In order to run crossbrowser test (Chrome, Firefox and IE) execute the command:
-
-- ```npm run test-crossbrowser```
-
 ## Test coverage
 
 In order to check the test code coverage check the folder **build/test/coverage** after ran the command below:

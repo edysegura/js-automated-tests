@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Factorial Calculator</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-  <div class="container">
-    <h1>Factorial Calculator</h1>
-    <form action="">
-      <div class="form">
-        <label for="number">
-          Number
-          <input type="number" min="0" max="100" id="number" required autofocus>
-        </label>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Factorial Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Factorial Calculator</h1>
+      <form action="">
+        <div class="form">
+          <label for="number">
+            Number
+            <input
+              type="number"
+              min="0"
+              max="100"
+              id="number"
+              required
+              autofocus
+            />
+          </label>
+        </div>
+        <button type="submit">Calculate</button>
+      </form>
+      <div class="result">
+        <h2>Result</h2>
+        <span id="result">0</span>
       </div>
-      <button type="submit">Calculate</button>
-    </form>
-    <div class="result">
-      <h2>Result</h2>
-      <span id="result">0</span>
     </div>
-  </div>
-
-  <script type="module" src="js/main.js"></script>
-</body>
+  </body>
 </html>

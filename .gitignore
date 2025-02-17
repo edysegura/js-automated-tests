@@ -47,3 +47,9 @@ bower_components
 .bower-cache
 .bower-registry
 .bower-tmp
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

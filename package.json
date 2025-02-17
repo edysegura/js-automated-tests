@@ -12,6 +12,8 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4",
     "coveralls": "^3.0.9",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",

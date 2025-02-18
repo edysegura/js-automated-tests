@@ -1,4 +1,4 @@
-import { FactorialService } from '../app/js/FactorialService'
+import { FactorialService } from '../../app/js/FactorialService'
 
 describe('FactorialService.js', () => {
   it('should calculate factorial from a given number', () => {

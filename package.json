@@ -6,6 +6,7 @@
     "start": "http-server ./app/ -o",
     "tdd": "jest --watch",
     "test": "jest --coverage",
+    "test:ft": "npx playwright test",
     "lint": "eslint ."
   },
   "author": "Edy Segura",

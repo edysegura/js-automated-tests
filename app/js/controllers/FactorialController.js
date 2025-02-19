@@ -1,4 +1,4 @@
-import { FactorialService } from './FactorialService.js'
+import { FactorialService } from '../services/FactorialService.js'
 
 export class FactorialController {
   constructor() {

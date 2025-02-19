@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "scripts": {
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "start": "http-server ./app/ -o",
+    "start": "http-server ./app/ -p 3000 -o",
     "tdd": "jest --watch",
     "test": "jest --coverage",
     "test:ft": "npx playwright test",

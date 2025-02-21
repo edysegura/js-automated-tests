@@ -1,7 +1,7 @@
 // @ts-check
 import { test, expect } from '@playwright/test'
 
-const baseURL = 'http://localhost:3000'
+const baseURL = process.env.BASE_URL || 'http://localhost:3000'
 
 test('has title', async ({ page }) => {
   await page.goto(baseURL)

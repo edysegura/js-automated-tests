@@ -8,7 +8,8 @@
     "tdd": "vitest",
     "test": "vitest run --coverage",
     "test:ft": "npx playwright test",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "coverage": "vitest run --coverage"
   },
   "author": "Edy Segura",
   "license": "MIT",

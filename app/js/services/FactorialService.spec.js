@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest'
 import { FactorialService } from './FactorialService'
 
 describe('FactorialService.js', () => {

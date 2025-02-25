@@ -4,8 +4,8 @@
   "scripts": {
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "start": "http-server ./app/ -p 3000 -o",
-    "tdd": "jest --watch",
-    "test": "jest --coverage",
+    "tdd": "vitest",
+    "test": "vitest run --coverage",
     "test:ft": "npx playwright test",
     "lint": "eslint ."
   },
@@ -15,14 +15,16 @@
     "@babel/preset-env": "^7.16.11",
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.4",
+    "@vitest/coverage-v8": "^0.34.6",
     "coveralls": "^3.0.9",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "^26.0.0",
+    "eslint-plugin-vitest": "^0.3.8",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
     "http-server": "^13.0.2",
-    "jest": "^27.4.7"
+    "jsdom": "^22.1.0",
+    "vitest": "^0.34.6"
   }
 }

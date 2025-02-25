@@ -1,7 +1,4 @@
-/**
- * @jest-environment jsdom
- */
-
+import { describe, it, expect, beforeEach } from 'vitest'
 import { FactorialController } from './FactorialController'
 
 describe('FactorialController.js', () => {

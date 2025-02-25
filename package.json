@@ -1,6 +1,7 @@
 {
   "name": "js-automated-tests",
   "version": "2.0.0",
+  "type": "module",
   "scripts": {
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "start": "http-server ./app/ -p 3000 -o",

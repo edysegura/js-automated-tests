@@ -8,6 +8,7 @@
     "tdd": "vitest",
     "test": "vitest run --coverage",
     "test:ft": "npx playwright test",
+    "test:ft:ui": "npx playwright test --ui",
     "lint": "eslint .",
     "coverage": "vitest run --coverage"
   },
